@@ -2,7 +2,7 @@
 string message;
 string phonetic::find(string text, string word)
 {
-    if(word.lenght() == 0)
+    if(word.length() == 0)
     {
         message = "empty word is not acceptable";
         throw myException();
